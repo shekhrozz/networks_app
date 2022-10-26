@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:networks_app/pages/home/home_view.dart';
 import 'package:networks_app/pages/product/product_view.dart';
 
 void main() {

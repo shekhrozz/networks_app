@@ -7,6 +7,10 @@ import 'package:networks_app/pages/product/detail/details_view.dart';
 import 'package:networks_app/services/retro/retro_client.dart';
 import 'package:networks_app/model/products/products_wrapper.dart';
 import 'package:dio/dio.dart';
+
+
+//  Erinchoqlar usuli
+
 class ProductView extends StatelessWidget {
    ProductView({super.key});
   var client=RetroClient(Dio(BaseOptions(

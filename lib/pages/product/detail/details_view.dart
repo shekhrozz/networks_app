@@ -49,7 +49,7 @@ class DetailsView extends StatelessWidget {
                   child:PageView.builder(
                     itemCount: product!.images.length,
                     itemBuilder:(context, index) {
-                      
+   
                       return Card(
                         child: CachedNetworkImage(
                           errorWidget:(context, url, error) => SizedBox.shrink(),
